@@ -1,2 +1,44 @@
+.size-table {
+  width: 100%;
+  font-family: sans-serif;
+}
 
-/* Your CSS Code here. */
+.size-table th,
+.size-table td {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+/* Top Header */
+.size-table thead {
+  background-color: #a52a2a;
+  color: white;
+}
+
+/* First row - Waist */
+.size-table .waist {
+  background-color: #e8a5a5;
+}
+
+/* Second row - Chest */
+.size-table .chest {
+  background-color: #f3dcdc;
+}
+
+/* Third row - Sleeve */
+.size-table .sleeve {
+  background-color: #d9d9d9;
+}
+
+/* Optional: Remove outer border lines if needed */
+.size-table th:first-child,
+.size-table td:first-child {
+  text-align: left;
+}
+
+.right{
+	text-align:left;
+}
+.left{
+	text-align: right;
+}
